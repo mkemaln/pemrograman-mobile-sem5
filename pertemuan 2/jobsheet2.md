@@ -1,3 +1,6 @@
+Nama : Muhammad Kemal Nugraha\
+Kelas : 3D\
+NIM : 2241720044
 # Pertanyaan
 1. Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
 

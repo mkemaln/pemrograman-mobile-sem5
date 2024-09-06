@@ -17,5 +17,5 @@ void main() {
 }
 
 ```
-hasil:
+hasil:\
 ![alt](/pertemuan%202/hasil%20jobsheet%202.png)

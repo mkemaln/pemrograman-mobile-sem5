@@ -81,3 +81,91 @@ Telah terjadi error saat proses kompilasi. Pesan errornya sebagai berikut:
     ```
     dengan memberikan parameter logika yaitu berupa "true" maka hasil if nya adalah true dan akan mencetak "Kebenaran".
 
+# Praktikum 2
+1. Ketik atau salin kode program berikut ke dalam fungsi main().
+```dart
+while (counter < 33) {
+  print(counter);
+  counter++;
+}
+```
+2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.\
+**Jawab:**\
+Terdapat error
+    ```
+    compileDDC
+    main.dart:2:10: Error: Undefined name 'counter'.
+    while (counter < 33) {
+            ^^^^^^^
+    main.dart:3:11: Error: Undefined name 'counter'.
+        print(counter);
+            ^^^^^^^
+    main.dart:4:5: Error: Getter not found: 'counter'.
+        counter++;
+        ^^^^^^^
+    ```
+    Artinya variabel counter tidak dapat ditemukan.\
+    **Perbaikan:**
+    ```dart
+    void main() {
+    int counter = 25;
+    while (counter < 33) {
+        print(counter);
+        counter++;
+    }
+    }
+    ```
+    dengan menambahkan variabel counter, kode sudah bisa dijalankan dengan hasil,
+    ```
+    25
+    26
+    27
+    28
+    29
+    30
+    31
+    32
+    ```
+3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+```dart
+do {
+  print(counter);
+  counter++;
+} while (counter < 77);
+```
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
+**Jawab:**\
+Tidak terjadi error,
+```dart
+void main() {
+  int counter = 60;
+//   while (counter < 33) {
+//     print(counter);
+//     counter++;
+//   }
+  do {
+    print(counter);
+    counter++;
+  } while (counter < 77);
+}
+```
+dan menghasilkan kode berikut
+```
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+```

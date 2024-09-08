@@ -248,6 +248,53 @@ Terdapat error
     ```
 
 # Tugas Praktikum
+Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.\
+**Kode:**
+```dart
+import 'dart:math';
 
+void main() {
+  for (int i = 0; i <= 201; i++) {
+    bool checkPrime = true;
+    for (int j = 2; j <= sqrt(i); j++) {
+      if (i % j == 0) {
+        checkPrime = false; // Bukan bilangan prima
+        break;
+      }
+    }
 
+    if (i <= 1) {
+      checkPrime = false;
+    }
 
+    if (checkPrime == true) {
+      print('2241720044');
+    } else {
+      print(i);
+    }
+  }
+}
+```
+
+**Hasil:**
+```
+0
+1
+2241720044
+2241720044
+4
+2241720044
+6
+2241720044
+.
+.
+.
+194
+195
+196
+2241720044
+198
+2241720044
+200
+201
+```

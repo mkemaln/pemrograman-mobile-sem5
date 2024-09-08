@@ -83,12 +83,12 @@ Telah terjadi error saat proses kompilasi. Pesan errornya sebagai berikut:
 
 # Praktikum 2
 1. Ketik atau salin kode program berikut ke dalam fungsi main().
-```dart
-while (counter < 33) {
-  print(counter);
-  counter++;
-}
-```
+    ```dart
+    while (counter < 33) {
+    print(counter);
+    counter++;
+    }
+    ```
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.\
 **Jawab:**\
 Terdapat error
@@ -127,45 +127,127 @@ Terdapat error
     32
     ```
 3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
-```dart
-do {
-  print(counter);
-  counter++;
-} while (counter < 77);
-```
-Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
-**Jawab:**\
-Tidak terjadi error,
-```dart
-void main() {
-  int counter = 60;
-//   while (counter < 33) {
-//     print(counter);
-//     counter++;
-//   }
-  do {
+    ```dart
+    do {
     print(counter);
     counter++;
-  } while (counter < 77);
-}
-```
-dan menghasilkan kode berikut
-```
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-```
+    } while (counter < 77);
+    ```
+    Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
+    **Jawab:**\
+    Tidak terjadi error,
+    ```dart
+    void main() {
+    int counter = 60;
+    //   while (counter < 33) {
+    //     print(counter);
+    //     counter++;
+    //   }
+    do {
+        print(counter);
+        counter++;
+    } while (counter < 77);
+    }
+    ```
+    dan menghasilkan kode berikut
+    ```
+    60
+    61
+    62
+    63
+    64
+    65
+    66
+    67
+    68
+    69
+    70
+    71
+    72
+    73
+    74
+    75
+    76
+    ```
+
+# Praktikum 3
+1. Ketik atau salin kode program berikut ke dalam fungsi main().
+    ```dart
+    for (Index = 10; index < 27; index) {
+    print(Index);
+    }
+    ```
+2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+**Jawab:**\
+Terdapat error
+    ```
+    compileDDC
+    main.dart:2:19: Error: Undefined name 'index'.
+    for (Index = 10; index < 27; index) {
+                    ^^^^^
+    main.dart:3:9: Error: Undefined name 'Index'.
+    print(Index);
+            ^^^^^
+    main.dart:2:31: Error: Undefined name 'index'.
+    for (Index = 10; index < 27; index) {
+                                ^^^^^
+    main.dart:2:7: Error: Setter not found: 'Index'.
+    for (Index = 10; index < 27; index) {
+        ^^^^^
+    ```
+    Error ini artinya tidak ditemukan variabel Index maupun index karena belum  dilakukan inisialisai variabel tersebut.\
+    **Perbaikan:**
+    ```dart
+    void main() {
+    for (int index = 10; index < 27; index++) {
+        print(index);
+    }
+    }
+    ```
+    Dengan menginisialisasi variabel index dengan tipe int serta memperbaiki nama variabel menjadi lowercase index akan memperbaiki kode. Dan juga dengan menambahkan increment pada parameter ketiga for untuk menjalankan perulangan. 
+3. Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
+    ```dart
+    If (Index == 21) break;
+    Else If (index > 1 || index < 7) continue;
+    print(index);
+    ```
+    Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.\
+    **Jawab:**
+    - Error yang terjadi ada pada kesalahan sintaks if else yang seharusnya menggunakan lowercase,
+    - tidak konsistennya penggunaan variabel index,
+    - dan pada else if yang seharusnya menggunakan AND (&&) bukan OR ( | | ).
+
+    **Perbaikan:**
+    ```dart
+    void main() {
+        for (int index = 6; index < 27; index++) {
+            //print(index);
+            //perbaikan
+            if (index == 21) break;
+            else if (index > 1 && index < 7) continue;
+            print(index);
+        }
+    }
+    ```
+    **Hasil:**
+    ```
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    ```
+
+# Tugas Praktikum
+
+
+

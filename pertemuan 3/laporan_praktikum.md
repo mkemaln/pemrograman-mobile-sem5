@@ -268,7 +268,7 @@ void main() {
     }
 
     if (checkPrime == true) {
-      print('2241720044');
+      print('M Kemal Nugraha, 2241720044');
     } else {
       print(i);
     }
@@ -280,21 +280,24 @@ void main() {
 ```
 0
 1
-2241720044
-2241720044
+M Kemal Nugraha, 2241720044
+M Kemal Nugraha, 2241720044
 4
-2241720044
+M Kemal Nugraha, 2241720044
 6
-2241720044
+M Kemal Nugraha, 2241720044
+8
+9
 .
 .
 .
+M Kemal Nugraha, 2241720044
 194
 195
 196
-2241720044
+M Kemal Nugraha, 2241720044
 198
-2241720044
+M Kemal Nugraha, 2241720044
 200
 201
 ```

@@ -15,7 +15,7 @@ void main() {
     }
 
     if (checkPrime == true) {
-      print('2241720044');
+      print('M Kemal Nugraha, 2241720044');
     } else {
       print(i);
     }

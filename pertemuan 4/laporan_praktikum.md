@@ -48,6 +48,10 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     ```
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!\
 **Jawab:**
+    ```
+    {fluorine, chlorine, bromine, iodine, astatine}
+    ```
+    Yang terjadi adalah akan dicetak seluruh nilai dalam set.
 
 3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -62,12 +66,27 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan ketiga variabel tersebut. Tambahkan elemen nama dan NIM Anda pada kedua variabel Set tersebut dengan dua fungsi berbeda yaitu .add() dan .addAll(). Untuk variabel Map dihapus, nanti kita coba di praktikum selanjutnya.
 
     Dokumentasikan code dan hasil di console, lalu buat laporannya.\
-    **Jawab:**
-    
-    
+    **Jawab:**\
+    Yang terjadi adalah hanya menampilkan map/set yang kosong.
+    ```
+    {}
+    {}
+    {}
+    ```
 
     **Perbaikan:**
+    ```dart
+    var names1 = <String>{"2241720044"};
+    Set<String> names2 = {};
 
+    names2.add("Kemal");
+    names2.addAll(names1);
+    print(names1);
+    print(names2);
+    ```
+    **hasil:**
+    ![](p2.png)
+    Setelah dilakukan perubahan, yang sebelumnya nilai Set names2 adalah kosong akan ditambahkan nilai baru dengan fungsi .add. Nilai dari Set names1 akan ditambahkan pada names2 dengan menggunakan .addAll yang menghasilkan Set names2 memiliki 2 nilai.
 # Praktikum 3
 1. Ketik atau salin kode program berikut ke dalam fungsi main().
     ```dart

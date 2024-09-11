@@ -108,7 +108,17 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     ```
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!\
 **Jawab:**
+    ```
+    {first: partridge, second: turtledoves, fifth: 1}
+    {2: helium, 10: neon, 18: 2}
+    ```
+    Untuk membuat Map simpelnya hanya dengan 
+    ```
+    <tipe_data> nama_map = {value atau key:value}
+    ```
+    tetapi tipe data Map adalah dynamic secara default. 
 
+    dalam Map kita juga bisa menambahkan key dan valuenya agar lebih mudah dalam pemanggilan nilainya. Apabila dilakukan print, maka yang muncul adalah key dan value dari dalam Map itu sendiri.
 3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
     ```dart
     var mhs1 = Map<String, String>();
@@ -123,10 +133,62 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
 
-    Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (gifts, nobleGases, mhs1, dan mhs2). Dokumentasikan hasilnya dan buat laporannya!\
-    **Jawab:**
+    Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (gifts, nobleGases, mhs1, dan mhs2). Dokumentasikan hasilnya dan buat laporannya!
+
+    **Jawab:**\
+    Yang terjadi adalah nilai dalam map gifts dan nobleGases akan diganti menjadi,
+    ```
+    {first: partridge, second: turtledoves, fifth: golden rings}
+    {2: helium, 10: neon, 18: argon}
+    ```
+    Tidak ada error yang terjadi, hanya saja Map mhs1 dan mhs2 tidak terpakai.
 
     **Perbaikan:**
+    ```dart
+    var gifts = {
+        // Key:    Value
+        'first': 'partridge',
+        'second': 'turtledoves',
+        'fifth': 1
+    };
+
+    var nobleGases = {
+        2: 'helium',
+        10: 'neon',
+        18: 2,
+    };
+
+    var mhs1 = Map<String, String>();
+    gifts['first'] = 'partridge';
+    gifts['second'] = 'turtledoves';
+    gifts['fifth'] = 'golden rings';
+    gifts['nama'] = 'Kemal';
+    gifts['nim'] = '2241720044';
+
+    var mhs2 = Map<int, String>();
+    nobleGases[2] = 'helium';
+    nobleGases[10] = 'neon';
+    nobleGases[18] = 'argon';
+    nobleGases[20] = 'Kemal';
+    nobleGases[22] = '2241720044';
+
+    mhs1['nama'] = 'Kemal';
+    mhs1['nim'] = '2241720044';
+
+    mhs2[1] = 'Kemal';
+    mhs2[2] = '2241720044';
+
+    print(gifts);
+    print(nobleGases);
+    print(mhs1);
+    print(mhs2);
+    ```
+    ![](p3.png)
+    dalam penambahan isi dari map, harus diikuti format/ tipe data key-value dari mapnya sendiri. Contohnya pada Map mhs1 key-nya menggunakan tipe data String dan value-nya juga String seperti berikut,
+    ```
+    mhs1['nama'] = 'Kemal';
+    ```
+    'nama' akan menjadi key dan 'kemal' akan menjadi value. 
 
 # Praktikum 4
 1. Ketik atau salin kode program berikut ke dalam fungsi main().

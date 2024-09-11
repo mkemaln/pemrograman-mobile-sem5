@@ -22,13 +22,23 @@ NIM     : 2241720044
     2
     1
     ```
-    yang terjadi adalah
+    yang terjadi adalah nilai didalam list dicek menggunakan fungsi assert dan melakukan print length, nilai dan merubah nilai. Fungsi assert berguna sama seperti if, yaitu untuk menerapkan logical operation. 
 
 3. Ubah kode pada langkah 1 menjadi variabel final yang mempunyai index = 5 dengan default value = `null`. Isilah nama dan NIM Anda pada elemen index ke-1 dan ke-2. Lalu print dan capture hasilnya.\
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
 **Jawab:**
-
-**Perbaikan:**
+    ```dart
+    var index = <dynamic>[null, null, null, null, null];
+    index[1] = 'Kemal';
+    index[2] = 2241720044;
+    assert(index[1] == 'Kemal');
+    print(index[1]);
+    assert(index[2] == 2241720044);
+    print(index[2]);
+    ```
+    **hasil:**
+    ![](p1.png)
+    Tanpa adanya tipe list dynamic, secara default dart akan memberikan tipe Null pada list karena seluruh isi variabelnya adalah null. Apabila tipe list Null, tidak bisa dimasukkan dengan nilai bertipe lainnya (contohnya nilai 'Kemal' yang betipe String). Tipe list dynamic berfungsi agar list bisa dimasukkan nilai bertipe lainnya.
 
 # Praktikum 2
 1. Ketik atau salin kode program berikut ke dalam fungsi main().

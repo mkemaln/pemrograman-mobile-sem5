@@ -320,7 +320,10 @@ Terdapat error pada ` print(list1);` karena variabel tersebut belum terdeklarasi
     print(record)
     ```
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!\
-**Jawab:**
+**Jawab:**\
+Hasilnya menampilkan output `(first, last, a: 2, b: true)`
+
+    hasil output menunjukkan urutannya yang tidak sesuai dari inisialisasi. Ini karena dart melakukan pengurutan secara otomatis dari positional fields lalu ke named fields dahulu.
 
 3. Tambahkan kode program berikut di luar scope void main(), lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -330,9 +333,25 @@ Terdapat error pada ` print(list1);` karena variabel tersebut belum terdeklarasi
     }
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gunakan fungsi tukar() di dalam main() sehingga tampak jelas proses pertukaran value field di dalam Records.\
-    **Jawab:**
+    **Jawab:**\
+    tidak terjadi error, hanya saja fungsi tukar tidak digunakan dimanapun. 
 
     **Perbaikan:**
+    ```dart
+    (int, int) tukar((int, int) record) {
+        var (a, b) = record;
+        return (b, a);
+    }
+
+    var record = ('first', a: 2, b: true, 'last', c: 3);
+    var swap = tukar((record.a, record.c));
+    print(record);
+    print(swap);
+    ```
+    saya menambahkan nilai baru pada record yaitu c dengan value 3 karena function tukar meminta input integer. Lalu dilakukan pemanggilan function tukar untuk record a dan c. Hasil output disimpan pada variabel swap.
+
+    **hasil**
+    ![](p5.png)
 
 4. Tambahkan kode program berikut di dalam scope void main(), lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -342,8 +361,15 @@ Terdapat error pada ` print(list1);` karena variabel tersebut belum terdeklarasi
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Inisialisasi field nama dan NIM Anda pada variabel record mahasiswa di atas. Dokumentasikan hasilnya dan buat laporannya!\
     **Jawab:**
+    Yang terjadi adalah error, karena record tersebut termasuk non-nullable yang artinya  harus ada isinya.
 
     **Perbaikan:**
+    ```dart
+    (String, int) mahasiswa = ('kemal', 2241720044);
+    print(mahasiswa);
+    ```
+    hasil : `(kemal, 2241720044)`
+    Isi dari record mahasiswa harus sesuai dengan format yang telah ditetapkan, yaitu (String, int).
 
 5. Tambahkan kode program berikut di dalam scope void main(), lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -356,10 +382,20 @@ Terdapat error pada ` print(list1);` karena variabel tersebut belum terdeklarasi
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!\
     **Jawab:**
-
-    **Perbaikan:**
-
-
+    ```dart
+    var mahasiswa2 = ('kemal', a: 2241720044, b: true, 'last');
+    print(mahasiswa2.$1);
+    print(mahasiswa2.a); 
+    print(mahasiswa2.b); 
+    print(mahasiswa2.$2);
+    ```
+    **hasil**
+    ```
+    kemal
+    2241720044
+    true
+    last
+    ```
 # Tugas Praktikum
 1. Silakan selesaikan Praktikum 1 sampai 5, lalu dokumentasikan berupa screenshot hasil pekerjaan Anda beserta penjelasannya!
 2. Jelaskan yang dimaksud Functions dalam bahasa Dart!

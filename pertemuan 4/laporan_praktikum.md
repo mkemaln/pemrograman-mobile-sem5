@@ -201,7 +201,17 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     ```
 
 2. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!\
+**Error:**\
+Terdapat error pada ` print(list1);` karena variabel tersebut belum terdeklarasi. Solusi: diubah menjadi nama 'list'\
 **Jawab:**
+    ```
+    [1, 2, 3]
+    [0, 1, 2, 3]
+    4
+    ```
+    '...' adalah spread operator yang berfungsi untuk menambakan seluruh nilai dari list tertentu. Cara kerjanya juga mirip seperti fungsi .addAll. 
+    
+    Seperti pada contoh, yang awalnya list2 hanya memiliki nilai 0 saja, lalu ditambahkan nilai dari list menggunakan spread operator, maka hasilnya nilai list 2 terdapat tambahan dari list. 
 
 3. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -209,12 +219,40 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     print(list1);
     var list3 = [0, ...?list1];
     print(list3.length);
-    Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
     ```
+    Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
+    **Jawab:**\
+    ```
+    [1, 2, 3]
+    [0, 1, 2, 3]
+    4
+    [1, 2, null]
+    4
+    ```
+    Error yang terjadi hanyalah belum diberinya tipe data pada list1. Perbaikan yang dilakukan hanya dengan memberi tipe data semisal var.
+
     Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators. Dokumentasikan hasilnya dan buat laporannya!\
     **Jawab:**
+    ```dart
+    var list = [1, 2, 3];
+    var list2 = [0, ...list];
+    print(list);
+    print(list2);
+    print(list2.length);
 
-    **Perbaikan:**
+    var list1 = [1, 2, 2241720044];
+    print(list1);
+    var list3 = [0, ...?list1];
+    print(list3.length);
+    ```
+    **hasil**
+    ```
+    [1, 2, 3]
+    [0, 1, 2, 3]
+    4
+    [1, 2, 2241720044]
+    4
+    ```
 
 4. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -223,8 +261,23 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel promoActive ketika true dan false.\
     **Jawab:**
+    Error terjadi karena variabel promoActive belum dilakukan deklarasi maupun inisialisasi.
 
     **Perbaikan:**
+    ```dart
+    // saat true
+    bool promoActive = true;
+    var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+    print(nav);
+    ```
+    hasil : `[Home, Furniture, Plants, Outlet]`
+    ```dart
+    // saat false
+    bool promoActive = false;
+    var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+    print(nav);
+    ```
+    hasil : `[Home, Furniture, Plants]`
 
 5. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
     ```dart
@@ -232,10 +285,21 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     print(nav2);
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel login mempunyai kondisi lain.\
-    **Jawab:**
+    **Jawab:**\
+    Error terjadi karena variabel login belum dilakukan deklarasi maupun inisialisasi.
 
     **Perbaikan:**
-
+    ```dart
+    var login = 'Admin';
+    var nav2 = [
+        'Home',
+        'Furniture',
+        'Plants',
+        if (login case 'Manager') 'Inventory'
+    ];
+    print(nav2);
+    ```
+    hasil : `[Home, Furniture, Plants]`
 6. Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
     ```dart
     var listOfInts = [1, 2, 3];
@@ -244,9 +308,10 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.\
     print(listOfStrings);
     ```
     Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Jelaskan manfaat Collection For dan dokumentasikan hasilnya.\
-    **Jawab:**
+    hasil : `[#0, #1, #2, #3]`
 
-    **Perbaikan:**
+    **Jawab:**\
+    Fungsi dari Collection for adalah untuk memudahkan memasukkan nilai dalam collection. Semisal akan memasukkan data dari database menjadi bentuk Collection, for bisa menjadi solusinya dengan tinggal melakukan loop berdasarkan id data dan memasukkan nilai dari kolom yag diinginkan untuk menjadi Collection. 
 
 # Praktikum 5
 1. Ketik atau salin kode program berikut ke dalam fungsi main().

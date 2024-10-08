@@ -99,3 +99,9 @@ hasil akhir:
 ![](img/hasilp2.png)
 
 # Praktikum 3
+hasil akhir:
+![](img/hasilp3.png)
+
+# Praktikum 4
+hasil akhir:
+![](img/hasilp4.png)

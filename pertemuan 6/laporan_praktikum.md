@@ -105,3 +105,8 @@ hasil akhir:
 # Praktikum 4
 hasil akhir:
 ![](img/hasilp4.png)
+
+# Praktikum 5
+hasil akhir:
+![](img/hasilp5.gif)
+

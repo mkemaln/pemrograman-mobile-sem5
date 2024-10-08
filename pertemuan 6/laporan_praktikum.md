@@ -95,3 +95,7 @@ return MaterialApp(
 ```
 
 # Praktikum 2
+hasil akhir:
+![](img/hasilp2.png)
+
+# Praktikum 3

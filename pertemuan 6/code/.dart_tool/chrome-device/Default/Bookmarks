@@ -1,0 +1,397 @@
+{
+   "checksum": "d9c9fdd653bd934584d3d59011249b45",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "0",
+            "date_last_used": "13370430347993826",
+            "guid": "37c174ab-99c2-460d-83cb-7ca283028654",
+            "id": "30",
+            "name": "adventure time",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://m.wcostream.com/anime/adventure-time",
+            "visit_count": 1
+         }, {
+            "date_added": "13367510256455379",
+            "date_last_used": "13369937762443099",
+            "guid": "d8ccc638-35e9-4653-be8a-7f0fc97ca510",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Telegram Web",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://web.telegram.org/k/#-4042797282",
+            "visit_count": 3
+         }, {
+            "date_added": "13370430300836677",
+            "date_last_used": "0",
+            "guid": "5181c8ef-f5f3-4c79-89fc-4526d69b34ca",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "materi ML",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://polinema.gitbook.io/jti-modul-praktikum-pembelajaran-mesin/regresi/job-sheet-3-regresi/dasar-teori#support-vector-regression-svr",
+            "visit_count": 1
+         }, {
+            "date_added": "13371389232507567",
+            "date_last_used": "13372839346551127",
+            "guid": "bc9fd1fa-127f-406a-8817-9ec4c3056951",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "WhatsApp",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://web.whatsapp.com/",
+            "visit_count": 27
+         }, {
+            "date_added": "13372126636931971",
+            "date_last_used": "0",
+            "guid": "d11486ad-a561-49be-97d5-5b1cfe61fcd5",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Jobs APIs — Public APIs",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://publicapis.io/category/jobs",
+            "visit_count": 1
+         }, {
+            "date_added": "13372126735374322",
+            "date_last_used": "0",
+            "guid": "e4925527-e785-4970-8e24-28b37d2522a7",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "jobstreet scrapper",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/okzapradhana/jobstreet-scrapper",
+            "visit_count": 1
+         }, {
+            "date_added": "13372127163522327",
+            "date_last_used": "0",
+            "guid": "90648dd5-f375-4a53-810b-6d17d37ce593",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ezKarir",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://app.diagrams.net/#G1yMaR8W7iP8oJ7g2yVp8OGrzXBWTurOmC#%7B%22pageId%22%3A%22Hvn_me08PK3OO17SMTKy%22%7D",
+            "visit_count": 1
+         } ],
+         "date_added": "13372207948683115",
+         "date_last_used": "0",
+         "date_modified": "13372127163522327",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "c4e7e121-eee8-495d-8e8a-ba210a85452c",
+               "id": "7",
+               "name": "Sci-Hub | Prototype Model for Controlling of Soil Moisture and pH in Smart Farming System. Lecture Notes in Electrical Engineering, 405–411 | 10.1007/978-981-13-8687-9_37",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://sci-hub.se/10.1007/978-981-13-8687-9_37",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "ee8856c5-cff6-4e5f-92b8-d89b01948ef4",
+               "id": "8",
+               "name": "Sci-Hub | Soil Monitoring, Fertigation, and Irrigation System Using IoT for Agricultural Application. Lecture Notes in Networks and Systems, 67–73 | 10.1007/978-981-10-5523-2_7",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://sci-hub.se/10.1007/978-981-10-5523-2_7",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "2c5a4b84-8485-4b31-9791-fcc60ba961c5",
+               "id": "9",
+               "name": "Sci-Hub | Robotic Aubergine Harvesting Using Dual-Arm Manipulation. IEEE Access, 1–1 | 10.1109/ACCESS.2020.3006919",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://sci-hub.se/10.1109/ACCESS.2020.3006919",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "b26c7870-9956-4f99-99fe-87d283502eda",
+               "id": "10",
+               "name": "Sci-Hub | Automated crop plant detection based on the fusion of color and depth images for robotic weed control. Journal of Field Robotics | 10.1002/rob.21897",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://sci-hub.se/10.1002/rob.21897",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "4f445a8f-f098-4d91-ac15-1333f18598e8",
+               "id": "11",
+               "name": "Sci-Hub | IoT, big data and artificial intelligence in agriculture and food industry. IEEE Internet of Things Journal, 1–1 | 10.1109/JIOT.2020.2998584",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://sci-hub.se/10.1109/JIOT.2020.2998584",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "7d3b85e9-331e-4c33-b1f6-db1b39ea523c",
+               "id": "12",
+               "name": "Run AVD Emulator without Android Studio - Stack Overflow",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/42718973/run-avd-emulator-without-android-studio",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "791e9aac-7456-4c8d-9729-6af09ef3d06d",
+               "id": "13",
+               "name": "How do I download the Android SDK without downloading Android Studio? - Stack Overflow",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/37505709/how-do-i-download-the-android-sdk-without-downloading-android-studio",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "46cca2b4-4cb6-40ec-9a06-c1e48bbe613d",
+               "id": "14",
+               "name": "How do I use my phone instead of a virtual device in Android Studio to run apps? - Quora",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.quora.com/How-do-I-use-my-phone-instead-of-a-virtual-device-in-Android-Studio-to-run-apps",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "1a074c99-ce05-4564-be80-47f3eb82f179",
+               "id": "15",
+               "name": "awds",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://roukie-studio.itch.io/kite-quest",
+               "visit_count": 0
+            } ],
+            "date_added": "13367494522110666",
+            "date_last_used": "0",
+            "date_modified": "13367494522110666",
+            "guid": "1b90680f-5701-4346-a3d0-f1fb0e1c7bac",
+            "id": "6",
+            "name": "Other Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "eb82f098-831d-4e24-93c6-2701dc36ff23",
+               "id": "17",
+               "name": "HEROs Deck from AWE | Master Duel Meta",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.masterduelmeta.com/top-decks/dmc-meta-weekly/30/heros/awe/911Ce",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "0def5211-1742-4699-a603-82972fe77baf",
+               "id": "18",
+               "name": "Microsoft Word - Jobsheet 1 - Dasar Pemrograman.docx",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://lmsslc.polinema.ac.id/pluginfile.php/314908/mod_resource/content/1/Jobsheet%201%20-%20Dasar%20Pemrograman.pdf",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "52b41a5d-e322-4ed4-b3ea-e276018bad31",
+               "id": "19",
+               "name": "22_1E_Muhammad Kemal Nugraha_P1_Palgo.docx - Google Docs",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/1V7rng0TmyPa4Xae3oR_W_rKCS5KfZA0s/edit",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "27716516-0bf1-4ff8-96d9-0b1469f3a3b5",
+               "id": "20",
+               "name": "Untitled | Visual Paradigm Online",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://online.visual-paradigm.com/app/diagrams/#diagram:proj=0&type=ERDiagram&width=11&height=8.5&unit=inch",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "470f7fd8-4012-424d-9273-d2dd702bd61e",
+               "id": "21",
+               "name": "Latihan soal",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://lmsslc.polinema.ac.id/pluginfile.php/315475/mod_resource/content/1/02.%20ERD.pdf",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "c9b070de-188c-44ca-9c4b-0c8ba6434d6a",
+               "id": "22",
+               "name": "New chat",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://chat.openai.com/chat",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "026982bd-2718-432c-bc66-e7b8ad04176b",
+               "id": "23",
+               "name": "Sci-Hub | The Role of 3D Printing in Medical Applications: A State of the Art. Journal of Healthcare Engineering, 2019, 1–10 | 10.1155/2019/5340616",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://sci-hub.se/https://doi.org/10.1155/2019/5340616",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "3e78f759-71dd-4f96-8f1e-7d867cfbab88",
+               "id": "24",
+               "name": "| literasikitaind",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://lynk.id/literasikitaind",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "82d44a42-9fe2-4d2b-8fc8-a0d7aad0232e",
+               "id": "25",
+               "name": "TryHackMe | Learning Paths",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://tryhackme.com/paths",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "e5bac0b9-e4d2-45fc-8851-b30179b076a5",
+               "id": "26",
+               "name": "Home - CTFlearn - CTF Practice - CTF Problems - CTF Challenges",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://ctflearn.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "4c1d13c9-5ad8-4616-8090-2f98aa4a5e13",
+               "id": "27",
+               "name": "Is AI intelligent? An assessment of artificial intelligence, 70 years after Turing - ScienceDirect",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160791X22000343",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "7b79bf62-b5d4-4749-bdb2-64271f4a2111",
+               "id": "28",
+               "name": "AI in mental health - ScienceDirect",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.sciencedirect.com/science/article/abs/pii/S2352250X2030049X",
+               "visit_count": 0
+            }, {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "c463e1dc-ec33-4043-9210-bada73d359c6",
+               "id": "29",
+               "name": "Browse Program | Merdeka Belajar - Kampus Merdeka",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://kampusmerdeka.kemdikbud.go.id/program/magang/browse?type=msib",
+               "visit_count": 0
+            } ],
+            "date_added": "13367494522111318",
+            "date_last_used": "0",
+            "date_modified": "13367494522111318",
+            "guid": "a0bbd65f-320f-4a7d-b34c-0096d0c35ad5",
+            "id": "16",
+            "name": "Synced Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13372207948683118",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13372207948683120",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCNw/72qSAQAAEgAqGCtqSUhjd1pkbUFPaDdVMFNUa2NQTHc9PUgDoAYMEqwBCB4SpwEKHFhmWmREbzhEZFlkZkFMYk5MamVSLzFNYjZIdz0SJDM3YzE3NGFiLTk5YzItNDYwZC04M2NiLTdjYTI4MzAyODY1NBgAIAAoADDc8afYnTI4666z4JIyQOuus+CSMkocTjk2VFdVc0tNZ1pETnRpcDZQQ3BEdTZKMVVBPVoeIhxSZk1JQWo4bk9adFZ5RGRnVk5WUmFWRStENXM9ZfMGeYHCPgJgBRKuAQgkEqkBChxoMjQ4ZGg3dGVIS2ZDc2xyL0d0RUR0UkU1QkE9EiQ5MDY0OGRkNS1mMzc1LTRhNTMtODEwYi02ZDE3ZDM3Y2U1OTMYACAAKAAwh9G1gaQyOP+stYGkMkD/rLWBpDJKHDB6RGlJZUZxZW5YOEhraDRKd2JLTk0reDlUcz1aICIe/81iWFgxNmRNL0VPZTFhdFVWOFNHdnBIdVlvSk09ZclZYAXCPgJgBRKtAQgfEqgBChx3MkVqR2N4OTNyY2gyb0ZrcTVldE5kNE8yU2s9EiRkOGNjYzYzOC0zNWU5LTQ2NTMtYmU4YS03ZjBmYzk3Y2E1MTAYACAAKAAwkoubi6YyOOTk8+eSMkCSi5uLpjJKHEd5aW0veUpqUk40dzdjNTFnRFExVURHNFBVYz1aHyId+mF3YVhUSDRBbVZmVXF4U0JkK2RsZTQ2QllkUT1l09+CDcI+AmAFEq4BCBsSqQEKHFJIRlhkeHJmQ2ErcmRHYzZhODhmZjRTSk12ND0SJDRjMWQxM2M5LTVhZDgtNDYxNi04MDkwLTJmOThhYTRhNWUxMxgAIAAoADDvqLPgkjI4hrOz4JIyQIazs+CSMkocTldISERXSGRjOUcrU3FIeEJIbi9BYUFSL1pJPVogIh7/tUc0Wnh0TjVaNlR6MXpneHltYlFWN3ZJSllsaz1lAAAAAMI+AmAFEq0BCBUSqAEKHDlpQTJiUXhHU3k0d3Rwb2RqWlladEFsTkUyYz0SJDQ3MGY3ZmQ4LTQwMTItNDI0ZC05MjczLWQyZGQ3MDJiZDYxZRgAIAAoADDpqLPgkjI4h7Kz4JIyQIeys+CSMkocdVkwVHZjOUJubXcxVjRpWUswVGpHNGMyN0RRPVofIh32MSt2ZDI4VkROZFlpVDBNWHg0UkpyR3BDUnhFPWUAAAAAwj4CYAUSrQEIDhKoAQocNVF0TkNpeUpQMXBOWjFOdnFRWHU2ZDhpK1cwPRIkNDZjY2EyYjQtNGNiNi00MGVjLTlhMDYtYzFlNDhiYmU2MTNkGAAgACgAMOCos+CSMjinrrPgkjJAp66z4JIyShx5WVBQQjdjWTdFWXJZNkhDZTBGVm16SFFqV3M9Wh8iHf53dWFNdmViUEFuOTcvQWNhRHhzZytnbFE3Qmc9ZQAAAADCPgJgBRKuAQgdEqkBChxMTHMzY2hWd0RHeHIwZ1hUR1hzdGZDbFprTW89EiRjNDYzZTFkYy1lYzMzLTQwNDMtOTIxMC1iYWRhNzNkMzU5YzYYACAAKAAw8aiz4JIyOLazs+CSMkC2s7PgkjJKHElBUU1NdUxhZHJFdWdaaDlicXFCdHNFNG9ZVT1aICIe/+11VmsybE01eWJyYitsRXp6d2QrK1hvQi9EMEk9ZQAAAADCPgJgBRKuAQgjEqkBChwySzlUc2pxUlduVEhKNTdLOGZYR3REaWU1VkU9EiRlNDkyNTUyNy1lNzg1LTQ5NzAtOGUyNC0yOGIzN2QyNTIyYTcYACAAKAAw4eebgaQyOPWam4GkMkD1mpuBpDJKHFh3OUlEVTdLbXZIeHV1MEVzREM4YzBYRHYyYz1aICIe/5o0NTV4b21WcmRtUTFINmxRT0hBaE9Fd1FNeEk9ZcjzP7vCPgJgBRKtAQgiEqgBChxBQ1BaeWpES3ZiR3dOSmU5YVBSdmQ1bHFxNHM9EiRkMTE0ODZhZC1hNTYxLTQ5YmUtOTdkNS01YjFjZmU2MWZjZDUYACAAKAAwjZeVgaQyONaZlYGkMkDWmZWBpDJKHC9WRGRGYlFYNnh3SXdrSkpleEVtRDYxeXhrbz1aHyId/zRYWDI3U3JQN2xLaEFKQUhvNHVIcXExODJHaz1lTBN3ecI+AmAFEq0BCA8SqAEKHFJnQTZjT0dhZHZZWWFzZXJGQXhpOUhWRWxHbz0SJDFhMDc0Yzk5LWNlMDUtNDU2NC1iZTgwLTQ3ZjNlYjgyZjE3ORgAIAAoADDhqLPgkjI4va6z4JIyQL2us+CSMkocdEJvUCtyK0U1UC95RE1tNEtqaGgvSFlRVmNrPVofIh3/dmZ3ZEtBckJuL05iN1cwQytDQ29xa0M2UnlJPWUAAAAAwj4CYAUSrQEIGBKoAQoceTNwM09YM0EybGFLMWlzcGp3VXg4eXpOdVljPRIkM2U3OGY3NTktNzFkZC00Zjk2LThmMWUtN2Q4NjdjZmJhYjg4GAAgACgAMOyos+CSMjjHsrPgkjJAx7Kz4JIyShxQK1NrOWRib25hZU1RL1RuVFZwVjVhckhvbGc9Wh8iHf5zVWJBQ2hOcXNndVJ0TG9IdExLZXBwU2l3WjQ9ZQAAAADCPgJgBRKtAQgWEqgBChw3dk9nUDJVVld5MFFsdEV2Vi9mVkNoanZvSjA9EiRjOWIwNzBkZS0xODhjLTQ0Y2EtOWM0Yi0wYzhiYTY0MzRkNmEYACAAKAAwjK7iz6EyOJ2ys+CSMkCdsrPgkjJKHG9iVG9xaDloZ2Q1VkpNZHVWWHBoL3M5ZTBWWT1aHyId+zlsUnc2Qm55WlpqNzlDRktkK3c5SDVQTmpCYz1lfC1UgMI+AmAFEq4BCBwSqQEKHEZyamRTSXVLQWJYbFhZZG5BWFNOMTV0eWFYUT0SJDdiNzliZjYyLWI1ZDQtNDc0OS1iZGIyLTY0MjcxZjRhMjExMRgAIAAoADDwqLPgkjI4m7Oz4JIyQJuzs+CSMkocZlZSWEM1SXZLemViT3FiU1hkWmxjUE9JS3E4PVogIh7/2jM2T0p2YnR2ejErWi9qRmZUTkJwcHEveHR2RT1lAAAAAMI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGQ4MjU5MWYxLTA3MzAtNTA0ZC1iN2M5LTMzNDNmZTA4ZDk4OBgAIAAoADDVpqXgkjI4hK+l4JIyQISvpeCSMkoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKtAQgZEqgBChxVMmVTcnlJbDZUNCsxNVkzTjFLK2lTaXp4VDg9EiQ4MmQ0NGE0Mi05ZmUyLTRkMmItOGZjOC1hMGQ3YWFkMDIzMmUYACAAKAAwk7/hnZQyONyys+CSMkDcsrPgkjJKHDlwQk5hQWMwSTQ1NncvUmgzM241K1NJbFhmMD1aHyId/0RkanZYVzZCSmFVdjhmQXFTSVZsMXJzQVJ1cz1lS6YvvcI+AmAFEq0BCBQSqAEKHEl0UitJUm5Sc0FHUy9HS25EWCs5OWRZcjNudz0SJDI3NzE2NTE2LTBiZjEtNGZmOC05NmQ5LTBiMTQ2OWYzYTNiNRgAIAAoADDoqLPgkjI48bGz4JIyQPGxs+CSMkocWWZjenBoRnVDcSt3WVEyb0JqOGxNcDlNcGl3PVofIh3sOXFMdG5HbGtSbms5QkowYnpGNGhwcC9Gb2VJPWUAAAAAwj4CYAUSrQEIEhKoAQoceWJxWXdwVWhZZG1CaFJldWhXcU5yalFGN2YwPRIkMGRlZjUyMTEtMTc0Mi00Njk5LWE2MDMtODI5NzJmZTc3YmFmGAAgACgAMOaos+CSMjiwr7PgkjJAsK+z4JIyShx3VjRHRkFOd0ZXamlqSXVHNzBIK2lNdGVtVGc9Wh8iHbJKZHBjZ1dsWi8zNW8xSFdZWTZSUDR1WXNVU3c9ZQAAAADCPgJgBRKtAQgXEqgBChxQVHZFTnp0VkpLdEZqSFkzeUxXeEtBT3lyNnM9EiQwMjY5ODJiZC0yNzE4LTQzMmMtYmM2Ni1lN2I4YWQwNDE3NmIYACAAKAAw66iz4JIyOLKys+CSMkCysrPgkjJKHG43cWVwMmRYOXhVTmYvNzZ4KzllaXByWklKcz1aHyId/WJZUURNRkJmaVNVeEluZUlJT1I3MWNqUWlEcz1lAAAAAMI+AmAFEq0BCBASqAEKHDc2MTlxRTdPQkRtdVMvcHVpMllNb3ZjeXhWbz0SJGEwYmJkNjVmLTMyMGYtNGE3ZC1iMzRjLTAwOTZkMGMzNWFkNRgAIAAoADDkqLPgkjI4g6+z4JIyQIOvs+CSMkocQ1ZzdjI1aGIwQXpQbFNoVmRHQTZLaGU1NVFzPVofIh2kQXFtZWJVbGFPeVhHN3BWYnJOeTZtaVkzWlBjPWUAAAAAwj4CYAASrQEIIBKoAQocVUFCRnNjSU1RaCswM2ZueFZOUEoyOXZNeTNRPRIkNTE4MWM4ZWYtZjVmMy00Yzc5LTg5ZmMtNDUyNmQ2OWIzNGNhGAAgACgAMKbapdidMjjl/6TYnTJA5f+k2J0yShwvNGZLcUU3UjM4aGlEcDJjdFJ2akFiM2lGVjg9Wh8iHf05YUovME8yRmQwR0J2dGFLakl6N0dJUUNxYUk9Zdc/nqvCPgJgBRKtAQgaEqgBChw5QzFxTmpnNkw1N0tqMEE0SGRXSTc2K2tZSWc9EiRlNWJhYzBiOS1lNGQyLTQ1ZmMtODg1MS1iMzAxNzliMDc2YTUYACAAKAAw7qiz4JIyOPGys+CSMkDxsrPgkjJKHDdYYjVFcUdoNjdaakZnSHhwYXVjeTNPQnR0RT1aHyId/2swQ01saW5vNGc2S3M0ek5mTmlJUG45YytiMD1lAAAAAMI+AmAFEq0BCAwSqAEKHDFSM2JoK1UwMkZ1V1NIeEsxbEdyL3NwSzZIVT0SJDdkM2I4NWU5LTMzMWUtNGMzMy1iMWY2LWRiMWIzOWVhNTIzYxgAIAAoADDeqLPgkjI4+a2z4JIyQPmts+CSMkoccXZPc0VOR3ZINTBWUU15ckhYQkdTdzMxaXdzPVofIh37UUEzWis0LzJWT3kyVEt1Z1N0Ui9lUkF1eXdvPWUAAAAAwj4CYAUSrQEIExKoAQocbThUOHlvVnYzWkZDdXVWVXo0QzZDS0Y3SUJBPRIkNTJiNDFhNWQtZTMyMi00ZWQ0LWIzZWEtZTI3NjAxOGJhZDMxGAAgACgAMOeos+CSMjjcsbPgkjJA3LGz4JIyShxwcmRUeW1YY2pMeVY1NEFXb1UzT281OHpYYnc9Wh8iHdlPK0sxRFVPYXdXeS9aUjVENWtqUjlQVGg3T2c9ZQAAAADCPgJgBRKsAQgGEqcBChxHcVRraFdYd25adHlmZTcwSFdldlBsN0tHTkk9EiQxYjkwNjgwZi01NzAxLTQzNDYtYTNkMC1mMWZiMGUxYzdiYWMYACAAKAAw2Kiz4JIyOOiss+CSMkDorLPgkjJKHDFTdGllMUlHSlA3NU9UTnZma3pLZDM1MVBRVT1aHiIcSHhVK1JCZXN5ZUJHbWNVaHVrUUpsbGNXcytRPWUAAAAAwj4CYAASrQEIDRKoAQoca2huQUlPRE1GNE81cHoram5tc1oyRWFod0gwPRIkNzkxZTlhYWMtNzQ1Ni00YzhkLTk3MjktNmFmMDllZjNkMDZkGAAgACgAMN+os+CSMjiPrrPgkjJAj66z4JIyShxUYldiZEhrcEwrRFlCWGtCTVlLOURxWkU0Y3c9Wh8iHf1ydzByc1FMT1dSV2cza29HODZUZnlPTVExTlU9ZQAAAADCPgJgBRKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiRjNjEyYmZjNy1jNDExLTVmZjMtYTRiYy0yNGJmZjA1MjAxMGMYACAAKAAw0Kal4JIyOOCupeCSMkDgrqXgkjJKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASrQEICxKoAQocQ29OT1pndERBOVBFTzMxMmVrWE9NclBxT3dNPRIkNGY0NDVhOGYtZjA5OC00ZDkxLWFjMTUtMTMzM2YxODU5OGU4GAAgACgAMN2os+CSMjjjrbPgkjJA462z4JIyShxvelpNN2ordDhySEdPdjk5bnNsSFpaODgzQmM9Wh8iHfdwQlgrRm0rR05tbWc1V2M0cjBFMWhQaGNTV1k9ZQAAAADCPgJgBRKtAQgIEqgBChxZbXhNZXFQcUFBN1ZUeXZNMDdQSHhRWVJYdVk9EiRlZTg4NTZjNS1jZmY2LTRlNWYtOTJiOC1kODliMDE5NDhlZjQYACAAKAAw2qiz4JIyOJWts+CSMkCVrbPgkjJKHEZQczNVMjVEbEk4cS9ZLzZPdHUzSUJ0WVROZz1aHyIduElBdURqalhTc1VVa0s3Z1NPZVdOT0xKM0dPYz1lAAAAAMI+AmAFEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDRiMzQ2MzdmLWI3NTAtNWVlNi1iOWQyLWY4YmNjYzU2NmE3OBgAIAAoADDPpqXgkjI4zq6l4JIyQM6upeCSMkocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKtAQgJEqgBChxZMFBnSXNMN1lhMjRtcjJvd0o5UytrUFhxKzA9EiQyYzVhNGI4NC04NDg1LTRiMzEtOTc5MS1mY2M2MGJhOTYxYzUYACAAKAAw26iz4JIyOK2ts+CSMkCtrbPgkjJKHDM5azl4ZkhjQWtoVVZxdlI2UEZEME5sRVN6MD1aHyId3GF0Y1FHYzZWeUR0b2JCZkpsQlNESmV0TGhvbz1lAAAAAMI+AmAFEq0BCAoSqAEKHE5ySzF3OWZZRmUrbVI0RzdqUnVyMTlwQWdHaz0SJGIyNmM3ODcwLTk5NTYtNGY5OS05OWZlLTg3ZDI4MzUwMmVkYRgAIAAoADDcqLPgkjI4xK2z4JIyQMSts+CSMkocL1ZGM0lTN2hEK1dNRXRJNlhkUDJmQkwyK2k4PVofIh3uN29lK1MxMHJPRmhWZk85WHNYVTNkeWFwa2NVPWUAAAAAwj4CYAUSrQEIIRKoAQocQm1XWi9vL3MyZnRwU1hTU0hNTklkQlZPdXZRPRIkYmM5ZmQxZmEtMTI3Zi00MDZhLTg4MTctOWVjNGMzMDU2OTUxGAAgACgAMNPAgdWmMjjXzcWhoTJA08CB1aYyShxTMFprbXoyaEZGeWtZcjBwUnZlNS80RnUrakU9Wh8iHf55UHRmSVVuazZWR2JrWDk4d1h4Z0V5YzFDQkk9ZVCu6SPCPgJgBRKsAQgREqcBChxHck9ERXFnclU2aEFkNnFXMTlLZ1JTQ0pWL1k9EiRlYjgyZjA5OC04MzFkLTRlMjQtOTNjNi0yNzAxZGMzNmZmMjMYACAAKAAw5aiz4JIyOJmvs+CSMkCZr7PgkjJKHDdZem5MZjFaUDBod2VobEd4aGZoVjZtV2syND1aHiIcZHVqTkRoUC9GUjRpY3VxRi9hWHU0WDhmV2YwPWUAAAAAwj4CYAUSrAEIBxKnAQocaE9IaXdwY1ByQjJHTUtwMktILzZhdVNrUDljPRIkYzRlN2UxMjEtZWVlOC00OTVkLThlOGEtYmEyMTBhODU0NTJjGAAgACgAMNmos+CSMjj/rLPgkjJA/6yz4JIyShxEeFUvaWNuV25DSUNlSVg5a3pVZ2JrWGIxM2c9Wh4iHHBqT0ZHWmNzUjN1WEVMZ3VMSlhyY2NzM05KQT1lAAAAAMI+AmAFMAA4AA==",
+   "version": 1
+}

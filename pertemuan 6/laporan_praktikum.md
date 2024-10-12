@@ -110,3 +110,105 @@ hasil akhir:
 hasil akhir:
 ![](img/hasilp5.gif)
 
+# Tugas Praktikum 2
+1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan `Navigator`. Perbarui kode pada bagian `Navigator` menjadi seperti berikut.
+
+2. Pembacaan nilai yang dikirimkan pada halaman sebelumnya dapat dilakukan menggunakan ModalRoute. Tambahkan kode berikut pada blok fungsi build dalam halaman ItemPage. Setelah nilai didapatkan, anda dapat menggunakannya seperti penggunaan variabel pada umumnya.
+
+3. Pada hasil akhir dari aplikasi belanja yang telah anda selesaikan, tambahkan atribut foto produk, stok, dan rating. Ubahlah tampilan menjadi GridView seperti di aplikasi marketplace pada umumnya.
+
+Dibawah ini adalah hasil dari step 1, 2, dan 3 Tugas Praktikum 2
+
+**Kode**\
+perubahan pada class item
+```dart
+class Item {
+  String name;
+  int price;
+  int stock;
+  double rating;
+  String photo;
+
+  Item(
+      {required this.name,
+      required this.price,
+      required this.stock,
+      required this.rating,
+      required this.photo});
+}
+```
+
+Penerapan Grid View
+```dart
+body: Container(
+    margin: EdgeInsets.all(8),
+    child: GridView.builder(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2,
+        mainAxisSpacing: 5.0,
+        crossAxisSpacing: 5.0,
+        ),
+        itemCount: items.length,
+        itemBuilder: (BuildContext context, int index) {
+        final item = items[index];
+        return InkWell(
+            onTap: () {
+            Navigator.pushNamed(context, '/item', arguments: item);
+            },
+            child: Card(
+            child: Container(
+                margin: EdgeInsets.all(8),
+                child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                    // Display photo (assuming assets)
+                    if (item.photo != null)
+                    Image.asset(
+                        item.photo!,
+                        height: 200.0,
+                        width: double.infinity,
+                        fit: BoxFit.cover,
+                    ),
+                    Expanded(
+                    child: Text(
+                        item.name,
+                        style: TextStyle(fontSize: 16.0),
+                    ),
+                    ),
+                    Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                        Text(
+                        'Stock: ${item.stock}',
+                        style: TextStyle(color: Colors.grey),
+                        ),
+                        Text(
+                        '${item.rating} stars',
+                        style: TextStyle(color: Colors.amber),
+                        ),
+                    ],
+                    ),
+                ],
+                ),
+            ),
+            ),
+        );
+        },
+    ),
+),
+```
+
+**Hasil akhir:**
+![](img/hasiltgs2-123.png)
+
+4. Silakan implementasikan Hero widget pada aplikasi belanja Anda dengan mempelajari dari sumber ini: `https://docs.flutter.dev/cookbook/navigation/hero-animations`
+
+5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
+
+Dibawah ini adalah jawaban untuk Nomor 4 dan 5
+
+**Kode:**
+
+
+**Hasil akhir:**
+![](img/hasiltgs2-45.gif)

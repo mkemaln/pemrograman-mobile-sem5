@@ -1,3 +1,8 @@
-2024/10/08-15:13:42.173 36a8 Reusing MANIFEST C:\Users\kuhak\AppData\Local\Temp\flutter_tools.bffd97c6\flutter_tools_chrome_device.eb1d0680\Default\Sync Data\LevelDB/MANIFEST-000001
-2024/10/08-15:13:42.174 36a8 Recovering log #3
-2024/10/08-15:13:42.179 36a8 Reusing old log C:\Users\kuhak\AppData\Local\Temp\flutter_tools.bffd97c6\flutter_tools_chrome_device.eb1d0680\Default\Sync Data\LevelDB/000003.log 
+2024/10/10-18:44:58.695 46d4 Reusing MANIFEST C:\Users\kuhak\AppData\Local\Temp\flutter_tools.8cb089a3\flutter_tools_chrome_device.b737e992\Default\Sync Data\LevelDB/MANIFEST-000001
+2024/10/10-18:44:58.696 46d4 Recovering log #7
+2024/10/10-18:44:58.697 46d4 Reusing old log C:\Users\kuhak\AppData\Local\Temp\flutter_tools.8cb089a3\flutter_tools_chrome_device.b737e992\Default\Sync Data\LevelDB/000007.log 
+2024/10/10-18:44:58.698 46d4 Delete type=0 #3
+2024/10/10-18:44:58.698 46d4 Delete type=0 #4
+2024/10/10-19:24:39.988 60bc Level-0 table #11: started
+2024/10/10-19:24:40.028 60bc Level-0 table #11: 80221 bytes OK
+2024/10/10-19:24:40.034 60bc Delete type=0 #7
